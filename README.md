@@ -1,11 +1,25 @@
-# React + Vite
+# Roshani Khan — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive developer portfolio built with React and Tailwind CSS to showcase my skills, projects, and experience as a Full Stack Developer.
 
-Currently, two official plugins are available:
+The portfolio follows a clean black-and-white visual theme with colorful technology icons, responsive layouts, smooth scrolling, interactive animations, and project showcases.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- Tailwind CSS
+
+### Libraries & Tools
+
+- Lucide React
+- React Icons
+- Tech Stack Icons
+- Git
+- GitHub
+- Vite
 
 ## React Compiler
 
