@@ -3,19 +3,19 @@ import Reveal from "../Reveal";
 export default function Hero() {
   return (
     
-    <section id="home" className="min-h-screen px-6 md:px-12 lg:px-30 pt-16">
+    <section id="home" className="min-h-screen px-6 md:px-12 lg:px-20 pt-16">
       <div className="mx-auto max-w-8xl min-h-[calc(100vh-6rem)] grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
         
         <Reveal direction="left">
-        <div className="min-h-[400px] flex flex-col justify-center lg:pr-10">
-          <p className="text-sm md:text-xl font-semibold">Hello, I'm</p>
-          <h1 className="text-6xl md:text-7xl lg:text-7xl tracking-[-4px] leading-[0.9] font-extrabold">
+        <div className="min-h-[400px] flex flex-col justify-center lg:pr-4">
+          <p className="text-sm md:text-xl lg:text-2xl font-semibold">Hello, I'm</p>
+          <h1 className="text-6xl md:text-7xl lg:text-8xl tracking-[-4px] leading-[0.9] font-extrabold">
             Roshani Khan
           </h1>
-          <h3 className="mt-4 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight tracking-tight">
+          <h3 className="mt-4 text-xl md:text-2xl lg:text-4xl font-bold leading-tight tracking-tight">
             Full Stack Developer
           </h3>
-          <p className="mt-4 text-gray-700 max-w-lg text-sm md:text-lg">
+          <p className="mt-4 text-gray-700 max-w-lg font-semibold text-sm md:text-lg">
             I build modern and responsive web applications using Express.js, Node.js, React and MongoDB with a focus on clean
             code, scalable systems and great user experiences.
           </p>
