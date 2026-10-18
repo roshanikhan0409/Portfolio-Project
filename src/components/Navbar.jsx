@@ -55,11 +55,11 @@ export default function Navbar(){
                 </a>
                 
                 <button
-                    onClick={() => setIsOpen(true)}
+                    onClick={() => setIsOpen(!isOpen)}
                     className="md:hidden p-2"
                     aria-label="Toggle menu"
                 >
-                    {!isOpen && <Menu size={24} />}
+                    {!isOpen && (<Menu size={24} />)}
                 </button>
             </div>
 
