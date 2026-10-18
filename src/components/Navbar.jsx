@@ -59,12 +59,12 @@ export default function Navbar(){
                     className="md:hidden p-2"
                     aria-label="Toggle menu"
                 >
-                    <Menu size={24} />
+                    {isOpen && <Menu size={24} />}
                 </button>
-
             </div>
+            
             {isOpen && (
-                <div className="absolute right-0 top-5 flex justify-between items-center border border-white/10 rounded-lg bg-white/10">
+                <div className="absolute right-0 top-5 flex justify-between items-center border border-white/10 rounded-lg bg-white">
                     <div id="mobile-navigation" className="mr-6 right-0 top-full flex flex-col gap-4 px-4 py-2">
                         <a
                             href="#home"
