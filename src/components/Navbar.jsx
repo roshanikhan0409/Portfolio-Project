@@ -55,18 +55,17 @@ export default function Navbar(){
                 </a>
                 
                 <button
-                    onClick={() => setIsOpen(!isOpen)}
+                    onClick={() => setIsOpen(true)}
                     className="md:hidden p-2"
                     aria-label="Toggle menu"
                 >
-                    {isOpen ? <X size={24} /> : <Menu size={24} />}
+                    <Menu size={24} />
                 </button>
 
             </div>
             {isOpen && (
-                <div className="fixed inset-0 z-50 md:hidden">
-                <div className="absolute right-0 top-[navbar-height] h-full w-[250px] border-t border-neutral-200 bg-white">
-                    <div className="px-6 py-5 flex flex-col gap-5">
+                <div className="absolute right-0 top-5 flex justify-between items-center border border-white/10 rounded-lg bg-white/10">
+                    <div className="mr-6 right-0 top-full flex flex-col gap-4 px-4 py-2">
                         <a
                             href="#home"
                             onClick={() => setIsOpen(false)}
@@ -111,7 +110,13 @@ export default function Navbar(){
                             <ArrowDownToLine size={16} />
                         </a>
                     </div>
-                    </div>
+                    <button
+                        onClick={() => {setIsOpen(false)}}
+                        className="h-10 w-10 p-2 absolute right-0 top-1 block"
+                        aria-label="Toggle menu"
+                        > 
+                            <X size={24}/>
+                    </button>
                 </div>
             )}
         </nav>
