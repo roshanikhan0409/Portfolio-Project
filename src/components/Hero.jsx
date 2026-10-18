@@ -4,15 +4,15 @@ export default function Hero() {
   return (
     
     <section id="home" className="min-h-screen px-6 md:px-12 lg:px-30 pt-16">
-      <div className="mx-auto max-w-8xl min-h-[calc(100vh-6rem)] grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
+      <div className="mx-auto max-w-8xl min-h-[calc(100vh-6rem)] grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
         
         <Reveal direction="left">
         <div className="min-h-[400px] flex flex-col justify-center lg:pr-10">
           <p className="text-sm md:text-xl font-semibold">Hello, I'm</p>
-          <h1 className="text-6xl md:text-7xl lg:text-8xl tracking-[-4px] leading-[0.9] font-extrabold">
+          <h1 className="text-6xl md:text-7xl lg:text-7xl tracking-[-4px] leading-[0.9] font-extrabold">
             Roshani Khan
           </h1>
-          <h3 className="mt-4 text-xl md:text-2xl lg:text-4xl font-semibold leading-tight tracking-tight">
+          <h3 className="mt-4 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight tracking-tight">
             Full Stack Developer
           </h3>
           <p className="mt-4 text-gray-700 max-w-lg text-sm md:text-lg">
@@ -22,13 +22,13 @@ export default function Hero() {
           <div className="flex flex-wrap gap-3 mt-7">
             <a
               href="#projects"
-              className="bg-black text-white px-5 py-3 md:px-6 md:py-4 rounded-md text-sm md:text-lg font-semibold hover:bg-neutral-800 transition duration-300"
+              className="bg-black text-white px-5 py-3 rounded-md text-sm md:text-lg font-semibold hover:bg-neutral-800 transition duration-300"
             >
               View Projects
             </a>
             <a
               href="/resume.pdf"
-              className="border border-black px-5 py-3 md:px-6 md:py-4 rounded-md text-sm md:text-lg font-semibold hover:bg-black hover:text-white transition duration-300"
+              className="border border-black px-5 py-3 rounded-md text-sm md:text-lg font-semibold hover:bg-black hover:text-white transition duration-300"
             >
              Resume
             </a>
@@ -38,10 +38,10 @@ export default function Hero() {
 
         <Reveal direction="right">
         <div className="flex items-center justify-center lg:justify-end">
-            <div  className="relative w-[280px] h-[360px] md:w-[380px] md:h-[480px]">
+            <div  className="relative w-[280px] h-[360px] md:w-[400px] md:h-[500px]">
             <img
                 src={heroImage}
-                alt="Professional woman"
+                alt="Image"
                 className="w-full h-full object-contain"
             />
             </div>

@@ -57,6 +57,8 @@ export default function Projects(){
                          <div className="mt-8 flex flex-wrap gap-3">
                             <a
                                 href="https://wanderlust-project-owtc.onrender.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="flex items-center gap-1 bg-black text-white px-5 py-3 rounded-md text-sm font-semibold hover:bg-neutral-800 transition duration-300"
                             >
                                 Live Demo <ArrowUpRight/>
@@ -102,13 +104,17 @@ export default function Projects(){
                         </div>
                         <div className="mt-8 flex flex-wrap gap-3">
                             <a
-                                href="https://roshaniiiportfolio.vercel.app/"
+                                href="https://roshaniiiportfolio.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="flex items-center gap-1 bg-black text-white px-5 py-3 rounded-md text-sm font-semibold hover:bg-neutral-800 transition duration-300"
                             >
                                 Live Demo <ArrowUpRight/>
                             </a>
                             <a
                                 href="https://github.com/roshanikhan0409/Portfolio-Project"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="flex items-center gap-1 border border-black px-5 py-3 rounded-md text-sm font-semibold hover:bg-black hover:text-white transition duration-300"
                             >
                                 <StackIcon name="github" className="w-6 h-6 mr-2"/>GitHub
