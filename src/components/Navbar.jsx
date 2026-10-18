@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ArrowDownToLine, Menu, X  } from "lucide-react";
 export default function Navbar(){
     const [isOpen, setIsOpen] = useState(false);
-    const navLink = "relative text-sm font-medium transition-colors duration-300 hover:text-neutral-500 after:absolute after:left-0 after:-bottom-2 after:h-[1px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full";
+    const navLink = "relative text-lg font-medium transition-colors duration-300 hover:text-neutral-500 after:absolute after:left-0 after:-bottom-2 after:h-[1px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full";
     return(
         <nav className="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-neutral-200">
             <div className="max-w-8xl mx-auto px-4 md:px-10 lg:px-12 h-16 flex items-center justify-between">
@@ -64,7 +64,7 @@ export default function Navbar(){
 
             </div>
             {isOpen && (
-                <div className="md:hidden border-t border-neutral-200 bg-white">
+                <div className="md:hidden border-t border-neutral-200 bg-white flex flex-end max-w-[200px]">
                     <div className="px-6 py-5 flex flex-col gap-5">
                         <a
                             href="#home"
@@ -104,7 +104,7 @@ export default function Navbar(){
                         <a
                             href="/resume.pdf"
                             download
-                            className="flex items-center justify-center gap-2 bg-black text-white px-4 py-3 rounded-md text-sm font-semibold"
+                            className="flex max-w-[100px] items-center justify-center gap-2 bg-black text-white px-4 py-3 rounded-md text-sm font-semibold"
                         >
                             Download Resume
                             <ArrowDownToLine size={16} />
