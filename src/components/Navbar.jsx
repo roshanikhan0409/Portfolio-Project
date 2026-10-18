@@ -64,8 +64,12 @@ export default function Navbar(){
 
             </div>
             {isOpen && (
-                <div className=" flex flex-end max-w-[200px]">
-                <div className="md:hidden border-t border-neutral-200 bg-white">
+                <div className="fixed inset-0 z-50 md:hidden">
+                <div
+                    className="absolute inset-0 bg-black/30"
+                    onClick={() => setIsOpen(false)}
+                />
+                <div className="absolute left-0 top-0 h-full w-[250px] border-t border-neutral-200 bg-white">
                     <div className="px-6 py-5 flex flex-col gap-5">
                         <a
                             href="#home"
