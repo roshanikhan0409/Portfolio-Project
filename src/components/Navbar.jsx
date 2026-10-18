@@ -65,7 +65,7 @@ export default function Navbar(){
             </div>
             {isOpen && (
                 <div className="absolute right-0 top-5 flex justify-between items-center border border-white/10 rounded-lg bg-white/10">
-                    <div className="mr-6 right-0 top-full flex flex-col gap-4 px-4 py-2">
+                    <div id="mobile-navigation" className="mr-6 right-0 top-full flex flex-col gap-4 px-4 py-2">
                         <a
                             href="#home"
                             onClick={() => setIsOpen(false)}
@@ -111,8 +111,11 @@ export default function Navbar(){
                         </a>
                     </div>
                     <button
+                        type="button"
                         onClick={() => {setIsOpen(false)}}
                         className="h-10 w-10 p-2 absolute right-0 top-1 block"
+                        aria-expanded={isOpen}
+                        aria-controls="mobile-navigation"
                         aria-label="Toggle menu"
                         > 
                             <X size={24}/>
