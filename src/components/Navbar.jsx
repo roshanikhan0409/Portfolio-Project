@@ -65,7 +65,7 @@ export default function Navbar(){
             </div>
             {isOpen && (
                 <div className="fixed inset-0 z-50 md:hidden">
-                <div className="absolute right-0 top-5 h-full w-[250px] border-t border-neutral-200 bg-white">
+                <div className="absolute right-0 top-full h-full w-[250px] border-t border-neutral-200 bg-white">
                     <div className="px-6 py-5 flex flex-col gap-5">
                         <a
                             href="#home"
